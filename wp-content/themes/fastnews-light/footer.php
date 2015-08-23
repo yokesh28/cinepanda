@@ -15,7 +15,7 @@ $footer_sidebar[4] = ($kopa_setting) ? $sidebars[$total - 1] : 'sidebar_15';
 $kopa_footer_logo = get_option( 'kopa_theme_options_footer_logo' );
 
 // footer copyright
-$kopa_theme_options_copyright = get_option( 'kopa_theme_options_copyright', __( 'Copyright &copy; 2013 . All Rights Reserved. Designed by kopatheme.com.', kopa_get_domain() ) );
+$kopa_theme_options_copyright = get_option( 'kopa_theme_options_copyright', __( 'Copyright &copy; 2013 . All Rights Reserved.', kopa_get_domain() ) );
 $kopa_theme_options_copyright = htmlspecialchars_decode( stripslashes( $kopa_theme_options_copyright ) );
 $kopa_theme_options_copyright = apply_filters( 'the_content', $kopa_theme_options_copyright );
 
